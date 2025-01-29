@@ -3,39 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo" style="color: black;">MEDHAJ</div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="work.html">Work</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <button class="login-btn">Login</button>
-    </header>
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Hello! I AM <span style="color: orange;">Medhaj Dixit</span></h1>
-            <p>Building simple and beautiful things for complex interfaces is what I enjoy most about my work. I am also interested in crafting beautiful minimal products and exploring new worlds.</p>
-            <div class="social-links">
-                
-                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" alt="Instagram"></a>
-                
-                <a href="#"><img src="https://www.freepnglogos.com/uploads/official-linkedin-logo----17.png" alt="LinkedIn"></a>
-            
-            </div>
-            <a href="work.html" class="cta" style="color: rgb(0, 0, 0);">See my work →</a>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="display" disabled>
         </div>
-        <div class="hero-image">
-            <img src="medhajpfp.jpg" alt="Medhaj Dixit" style="position: relative; right: 300px;">
+        <div class="buttons">
+            <button class="button" id="clear">C</button>
+            <button class="button" id="divide">/</button>
+            <button class="button" id="multiply">*</button>
+            <button class="button" id="subtract">-</button>
+            <button class="button" id="7">7</button>
+            <button class="button" id="8">8</button>
+            <button class="button" id="9">9</button>
+            <button class="button" id="add">+</button>
+            <button class="button" id="4">4</button>
+            <button class="button" id="5">5</button>
+            <button class="button" id="6">6</button>
+            <button class="button" id="equals">=</button>
+            <button class="button" id="1">1</button>
+            <button class="button" id="2">2</button>
+            <button class="button" id="3">3</button>
+            <button class="button" id="0">0</button>
+            <button class="button" id="decimal">.</button>
+        </div>
+    </div>
 
-        </div>
-    </section>
+    <script src="script.js"></script>
 </body>
 </html>
